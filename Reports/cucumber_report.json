@@ -1,0 +1,309 @@
+[
+  {
+    "description": "    Feature Description : To run demo test with playwright library",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwrite-demo-tests;verify-product-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Product home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1326697899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25460000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click categories link",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54898000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see 'Phones', 'Laptops' and 'Monitors' under categories",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35038100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174262400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwrite-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1280256699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43153100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I choose 'Phones'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41834299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see 'Samsung galaxy s6' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 373641799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150900300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo2",
+            "line": 12
+          },
+          {
+            "name": "@demo",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwrite-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 897312199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17796500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I choose 'Laptops'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45682099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see 'Sony vaio i5' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883051400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2527255200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo2",
+            "line": 12
+          },
+          {
+            "name": "@demo",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwrite-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1152774500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17200000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I choose 'Monitors'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48120899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see 'Apple monitor 24' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895864499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3875332700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo2",
+            "line": 12
+          },
+          {
+            "name": "@demo",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwrite-demo-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwrite demo tests",
+    "tags": [],
+    "uri": "features\\demo_blaze.feature"
+  }
+]
